@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      color:#788586;
+      font-family: Helvetica, Arial, sans-serif;
+      background-color:#2c4d70; 
+    }
+  
+    /*styles to <header> */
+  
+    header {
+      padding: 20px 25px;
+      background-color:#6b737d;
+      display:flex; 
+      justify-content: space-between;
+      flex-wrap: wrap;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      
+    }
+  
+    header h1{
+      font-weight: bold;
+      font-size: 45px;
+      margin: 0;
+      }
+  
+    header a {
+      text-decoration: none;
+      color:#2c4d70; 
+      
+    }
+  
+    header nav {
+     margin: 7px 0;
+     
+    }
+  
+    header nav ul li {
+      display: inline;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      list-style:none; 
+      align-items: center;
+      
+     
+    }
+  
+    header nav ul li a {
+      margin: 0 30px;
+      font-weight: lighter;
+      font-size: 30px;
+    }
+  
+    /*styles to <hero> */
+  
+    .hero {
+      background-image: url("../images/background-hero.jpg");
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+  
+    .hero h3 {
+      color: rgb(178, 178, 212);
+      font-weight: lighter;
+      font-size: 80px;
+      float: right;
+      position: absolute;
+      bottom: 100px;
+      right: 50px; 
+      
+    }
+    
+    /*styles to <navigation> */
+  
+    /*styles to <about-me> */
+   .about {
+      display:flex;
+    }
+    .about h2 {
+      font-size: 55px;
+      margin-bottom: 35px;
+      padding: 0 100px 20 px 100 px;
+      text-align: left;
+      border-right: 5px solid  #536872;
+  
+    }
+    .about img {
+      width: 20%;
+      margin: 0px 10px;
+      float:right;
+  
+  
+    }
+  
+    .about p{
+      line-height:1.7;
+      width: 80%;
+      font-size: 20px;
+      text-align: right;
+  
+    }
+  
+    .about span{
+      display: inline-block;
+      font-size: 30px;
+      padding: 20 px;
+      text-decoration: underline;
+      font-weight: bold;
+      display:flex; 
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    /*styles to <work-section> */
+    .work {
+      text-align:center;
+      overflow: auto;
+      border-style: solid;
+      border-color: #b2ffff;
+      height: 300px;
+      width: 170%;
+  
+    }
+    .work img {
+      width: 35%;
+      float: right;
+  
+    }
+    .work h3 {
+      font-size: 32px;
+      margin-bottom: 8px;
+      border-bottom: 3px;
+      text-decoration: underline;
+      background-color: #b2ffff;
+    }
+  
+    .work h4 {
+      font-size: 20px;
+  
+    }
+  
+    /* .work-type{
+      padding: 35px;
+      float: left;
+      width: 65%;
+  
+  
+    } */
+  #surf{
+     background-image: url("../images/wave-icon.jpeg");
+     background-position: center;
+     display:flex;
+     align-items: flex-end;
+  }
+  
+  #led-strip{
+      background-image: url("../images/led-strip.png");
+      background-position: center;
+      display:flex;
+      align-items: flex-end;
+  }
+  
+  #calculator{
+      background-image: url("../images/calculator-icon-8197.png");
+      background-position: center;
+      display: flex;
+      align-items: flex-end;
+  }
+  
+  #puzzle{
+    background-image: url("../images/puzzle-icon-28367.png");
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+  
+  }
+  
+  #run-buddy{
+    background-image: url('../images/hero-bg.jpeg');
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+    .grid-container-1 {
+      display:flex;
+      width: 170%;
+  
+    }
+  
+    .grid-container-2{
+      display: grid;
+      height: 400px;
+      align-content: start;
+      box-sizing:border-box;
+    }
+    /*styles to <contact-me-section> */
+    .contact div{
+      column-count: 3;
+      column-gap: 40px;
+      display: inline-block;
+      vertical-align: top;
+  
+    }
+  
+    .contact-me{
+      display: flex;
+      justify-content: space-around;
+      font-size: 10px;
+      
+    }
+  
+  
+    
+    /*styles to <resume> */
+  
+    /*styles to <footer> */
+    footer {
+      background: #36454f;
+      width: 100%;
+      padding: 40px 35px;
+    }
+  
+    footer h2 {
+      display:inline;
+      color:#788586;;
+      font-size: 30px;
+      margin: 0; 
+    }
+  
+    footer div {
+      float: right;
+      line-height: 1.5;
+      text-align: right;
+      color:#788586;;
+    }
+  
+    section {
+      padding: 60px;
+    }
