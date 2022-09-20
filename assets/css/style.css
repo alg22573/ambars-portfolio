@@ -29,6 +29,7 @@
       font-weight: bold;
       font-size: 45px;
       margin: 0;
+      color:azure;
       }
   
     header a {
@@ -61,7 +62,7 @@
     /*styles to <hero> */
   
     .hero {
-      background-image: url("../images/background-hero.jpg");
+      background-image: url("../images/background-hero.webp");
       height: 600px;
       background-size: cover;
       background-position: center;
